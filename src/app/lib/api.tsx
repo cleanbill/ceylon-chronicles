@@ -8,10 +8,8 @@ import {
     getDocs,
     getDoc,
     query,
-    where,
     serverTimestamp,
     orderBy,
-    limit,
 } from 'firebase/firestore';
 import { ref, uploadBytes, getDownloadURL } from 'firebase/storage';
 import { v4 as uuidv4 } from 'uuid';
